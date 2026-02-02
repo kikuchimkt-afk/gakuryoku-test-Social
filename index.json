@@ -38,5 +38,475 @@
       "./problems/LOCAL002_explanation_1.png"
     ],
     "answerImage": "./problems/LOCAL002_answer.png"
+  },
+  {
+    "id": "LOCAL003",
+    "grade": "2",
+    "unit": "開国と幕末の動乱",
+    "keywords": "ペリー,日米和親条約,日米修好通商条約,井伊直弼,桜田門外の変,大政奉還,戊辰戦争,薩長同盟",
+    "year": "2025",
+    "month": "2",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:08:21.873Z",
+    "images": [
+      "./problems/LOCAL003_problem_1.png",
+      "./problems/LOCAL003_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL003_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL003_answer.png"
+  },
+  {
+    "id": "LOCAL004",
+    "grade": "2",
+    "unit": "近代日本の成立",
+    "keywords": "明治維新,五箇条の御誓文,廃藩置県,学制,福沢諭吉,富岡製糸場,徴兵令,地租改正,学問のすゝめ",
+    "year": "2025",
+    "month": "2",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:09:58.665Z",
+    "images": [
+      "./problems/LOCAL004_problem_1.png",
+      "./problems/LOCAL004_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL004_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL004_answer.png"
+  },
+  {
+    "id": "LOCAL005",
+    "grade": "1",
+    "unit": "北アメリカ州",
+    "keywords": "北アメリカ州,アメリカ合衆国,フロリダ半島,サンベルト,西経100度,降水量,放牧,カナダ,多文化社会,適地適作",
+    "year": "2025",
+    "month": "2",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:12:38.340Z",
+    "images": [
+      "./problems/LOCAL005_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL005_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL005_answer.png"
+  },
+  {
+    "id": "LOCAL006",
+    "grade": "1",
+    "unit": "世界の諸地域（南アメリカ州）",
+    "keywords": "南アメリカ州,ラプラタ川,パンパ,ブラジル,植民地,大豆,アンデス山脈,銅,チリ,アマゾン川",
+    "year": "2025",
+    "month": "2",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:13:45.096Z",
+    "images": [
+      "./problems/LOCAL006_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL006_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL006_answer.png"
+  },
+  {
+    "id": "LOCAL007",
+    "grade": "1",
+    "unit": "世界の諸地域（オセアニア州）",
+    "keywords": "オーストラリア,グレートバリアリーフ,タスマニア島,雨温図,気候,降水量,気温,オセアニア,サンゴ礁,理科年表",
+    "year": "2025",
+    "month": "2",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:15:01.366Z",
+    "images": [
+      "./problems/LOCAL007_problem_1.png",
+      "./problems/LOCAL007_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL007_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL007_answer.png"
+  },
+  {
+    "id": "LOCAL008",
+    "grade": "1",
+    "unit": "中世の日本（鎌倉時代）",
+    "keywords": "源頼朝,鎌倉幕府,守護,地頭,承久の乱,御成敗式目,北条泰時,元寇,永仁の徳政令,武家社会",
+    "year": "2025",
+    "month": "2",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:16:05.706Z",
+    "images": [
+      "./problems/LOCAL008_problem_1.png",
+      "./problems/LOCAL008_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL008_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL008_answer.png"
+  },
+  {
+    "id": "LOCAL009",
+    "grade": "1",
+    "unit": "中世の日本",
+    "keywords": "後醍醐天皇,建武の新政,室町幕府,足利尊氏,足利義満,南北朝時代,勘合貿易,明,琉球王国,管領",
+    "year": "2025",
+    "month": "2",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:17:15.937Z",
+    "images": [
+      "./problems/LOCAL009_problem_1.png",
+      "./problems/LOCAL009_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL009_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL009_answer.png"
+  },
+  {
+    "id": "LOCAL010",
+    "grade": "3",
+    "unit": "世界地理総合",
+    "keywords": "アルプス山脈,本初子午線,雨温図,二期作,地中海性気候,西岸海洋性気候,自動車生産台数,ゲルマン系,気温,降水量",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:19:35.615Z",
+    "images": [
+      "./problems/LOCAL010_problem_1.png",
+      "./problems/LOCAL010_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL010_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL010_answer.png"
+  },
+  {
+    "id": "LOCAL011",
+    "grade": "3",
+    "unit": "日本地理総合",
+    "keywords": "北方領土,やませ,冷害,都道府県,果物生産,工業団地,日本地理,略地図",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:21:05.067Z",
+    "images": [
+      "./problems/LOCAL011_problem_1.png",
+      "./problems/LOCAL011_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL011_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL011_answer.png"
+  },
+  {
+    "id": "LOCAL012",
+    "grade": "3",
+    "unit": "古代から近世までの日本",
+    "keywords": "卑弥呼,邪馬台国,大化の改新,壬申の乱,鎌倉幕府,参勤交代,鎖国,朱印船貿易,徳川吉宗,江戸時代の改革",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:22:56.859Z",
+    "images": [
+      "./problems/LOCAL012_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL012_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL012_answer.png"
+  },
+  {
+    "id": "LOCAL013",
+    "grade": "3",
+    "unit": "近代・現代の日本と世界",
+    "keywords": "岩倉使節団,西南戦争,第一次世界大戦,世界恐慌,ポツダム宣言,サンフランシスコ講和条約,冷戦,湾岸戦争,パリ協定,地球温暖化",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:23:57.635Z",
+    "images": [
+      "./problems/LOCAL013_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL013_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL013_answer.png"
+  },
+  {
+    "id": "LOCAL014",
+    "grade": "3",
+    "unit": "日本国憲法",
+    "keywords": "日本国憲法,天皇,平和主義,基本的人権,国会,内閣,裁判所,衆議院の優越,三権分立,地方自治",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:26:16.873Z",
+    "images": [
+      "./problems/LOCAL014_problem_1.png",
+      "./problems/LOCAL014_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL014_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL014_answer.png"
+  },
+  {
+    "id": "LOCAL015",
+    "grade": "3",
+    "unit": "現代の経済と国際社会",
+    "keywords": "銀行,利子,直接税,間接税,景気変動,不景気,減税,国際連合,安全保障理事会,拒否権",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:27:40.903Z",
+    "images": [
+      "./problems/LOCAL015_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL015_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL015_answer.png"
+  },
+  {
+    "id": "LOCAL016",
+    "grade": "2",
+    "unit": "西日本",
+    "keywords": "火山,カルデラ,気温,降水量,地熱発電,シラス,サンゴ礁,本の気候,地学",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:29:42.844Z",
+    "images": [
+      "./problems/LOCAL016_problem_1.png",
+      "./problems/LOCAL016_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL016_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL016_answer.png"
+  },
+  {
+    "id": "LOCAL017",
+    "grade": "2",
+    "unit": "東日本",
+    "keywords": "火山,扇状地,地形,堆積,地学,日本地図,平野,河川",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:31:06.123Z",
+    "images": [
+      "./problems/LOCAL017_problem_1.png",
+      "./problems/LOCAL017_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL017_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL017_answer.png"
+  },
+  {
+    "id": "LOCAL018",
+    "grade": "2",
+    "unit": "近世の日本（江戸時代）",
+    "keywords": "江戸時代,徳川家康,武家諸法度,鎖国,出島,享保の改革,寛政の改革,天保の改革,田沼意次,幕政改革",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:32:45.213Z",
+    "images": [
+      "./problems/LOCAL018_problem_1.png",
+      "./problems/LOCAL018_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL018_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL018_answer.png"
+  },
+  {
+    "id": "LOCAL019",
+    "grade": "2",
+    "unit": "欧米の近代化とアジア",
+    "keywords": "市民革命,産業革命,フランス革命,社会契約説,ナポレオン,アヘン戦争,独立戦争,人権宣言,ジョン・ロック,近代化",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:35:55.225Z",
+    "images": [
+      "./problems/LOCAL019_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL019_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL019_answer.png"
+  },
+  {
+    "id": "LOCAL020",
+    "grade": "2",
+    "unit": "開国と幕末の動き",
+    "keywords": "ペリー,日米修好通商条約,井伊直弼,貿易,生糸,毛織物,安政の大獄,攘夷,大政奉還,徳川慶喜",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:35:42.017Z",
+    "images": [
+      "./problems/LOCAL020_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL020_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL020_answer.png"
+  },
+  {
+    "id": "LOCAL021",
+    "grade": "1",
+    "unit": "アジア州",
+    "keywords": "アジア州,チベット高原,長江,大韓民国,ASEAN,米,サウジアラビア,地理",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:38:09.966Z",
+    "images": [
+      "./problems/LOCAL021_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL021_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL021_answer.png"
+  },
+  {
+    "id": "LOCAL022",
+    "grade": "1",
+    "unit": "ヨーロッパ州",
+    "keywords": "ヨーロッパ州,偏西風,北大西洋海流,EU,ヨーロッパ連合,GDP,バチカン市国,航空機産業,言語系統,世界国勢図会",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:39:27.818Z",
+    "images": [
+      "./problems/LOCAL022_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL022_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL022_answer.png"
+  },
+  {
+    "id": "LOCAL023",
+    "grade": "1",
+    "unit": "アフリカ州",
+    "keywords": "サハラ砂漠,アフリカ連合,カカオ豆,ヒスパニック,シリコンバレー,アフリカ州,北アメリカ州,サンフランシスコ,農産物,工業",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:41:03.826Z",
+    "images": [
+      "./problems/LOCAL023_problem_1.png",
+      "./problems/LOCAL023_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL023_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL023_answer.png"
+  },
+  {
+    "id": "LOCAL024",
+    "grade": "1",
+    "unit": "南アメリカ州",
+    "keywords": "南アメリカ州,パンパ,鉱産資源,鉄鉱石,雨温図,ブラジル,アルゼンチン,気候区分,降水量,気温",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:43:26.089Z",
+    "images": [
+      "./problems/LOCAL024_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL024_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL024_answer.png"
+  },
+  {
+    "id": "LOCAL025",
+    "grade": "1",
+    "unit": "古代国家の歩み",
+    "keywords": "聖徳太子,大化の改新,中大兄皇子,白村江の戦い,律令,奈良時代,聖武天皇,十七条の憲法,中臣鎌足,平城京",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:45:14.163Z",
+    "images": [
+      "./problems/LOCAL025_problem_1.png",
+      "./problems/LOCAL025_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL025_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL025_answer.png"
+  },
+  {
+    "id": "LOCAL026",
+    "grade": "1",
+    "unit": "中世の日本（平安時代・鎌倉時代）",
+    "keywords": "平安京,桓武天皇,国風文化,院政,平清盛,太政大臣,源頼朝,鎌倉幕府,承久の乱,奉公",
+    "year": "2025",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-02T13:46:43.744Z",
+    "images": [
+      "./problems/LOCAL026_problem_1.png",
+      "./problems/LOCAL026_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL026_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL026_answer.png"
   }
 ]
