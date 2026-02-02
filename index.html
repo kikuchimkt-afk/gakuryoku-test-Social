@@ -271,7 +271,7 @@
         // === データ ===
         // ご提供いただいた5件のサンプルデータ
         // (キー名をJSで扱いやすい英語に変更しています)
-        const MOCK_SCIENCE_DATA = []; // ローカル（IndexedDB/FileSystem）から読み込んだ問題
+        const MOCK_SOCIAL_DATA = []; // ローカル（IndexedDB/FileSystem）から読み込んだ問題
         let collectedProblemIds = new Set(); // コレクト機能用: 選択された問題ID
 
         // === IndexedDB 設定 ===
@@ -821,7 +821,7 @@
             // 削除済みサンプルデータをフィルタリング
             filterDeletedSamples();
 
-            const allData = [...MOCK_SCIENCE_DATA, ...localProblems];
+            const allData = [...MOCK_SOCIAL_DATA, ...localProblems];
             allData.forEach(doc => {
                 splitAndAdd(doc.unit, allUnits);
                 splitAndAdd(doc.grade, allGrades);
@@ -1189,9 +1189,9 @@
                 saveDeletedSampleIds(deletedIds);
 
                 // メモリ上の配列からも削除
-                const index = MOCK_SCIENCE_DATA.findIndex(p => p.id === id);
+                const index = MOCK_SOCIAL_DATA.findIndex(p => p.id === id);
                 if (index > -1) {
-                    MOCK_SCIENCE_DATA.splice(index, 1);
+                    MOCK_SOCIAL_DATA.splice(index, 1);
                 }
             }
         }
@@ -1213,13 +1213,13 @@
         function filterDeletedSamples() {
             const deletedIds = getDeletedSampleIds();
             if (deletedIds.size > 0) {
-                // MOCK_SCIENCE_DATA から削除済みIDをフィルタ
-                for (let i = MOCK_SCIENCE_DATA.length - 1; i >= 0; i--) {
-                    if (deletedIds.has(MOCK_SCIENCE_DATA[i].id)) {
-                        MOCK_SCIENCE_DATA.splice(i, 1);
+                // MOCK_SOCIAL_DATA から削除済みIDをフィルタ
+                for (let i = MOCK_SOCIAL_DATA.length - 1; i >= 0; i--) {
+                    if (deletedIds.has(MOCK_SOCIAL_DATA[i].id)) {
+                        MOCK_SOCIAL_DATA.splice(i, 1);
                     }
                 }
-                console.log(`Filtered ${deletedIds.size} deleted sample(s) from MOCK_SCIENCE_DATA`);
+                console.log(`Filtered ${deletedIds.size} deleted sample(s) from MOCK_SOCIAL_DATA`);
             }
         }
 
@@ -1487,7 +1487,7 @@
             console.log('filterDocuments: keywordInput=', keywordInput, ', keywords=', keywords, ', searchMode=', searchMode);
 
             // 全データ（既存 + ローカル）をフィルタリング
-            const allData = [...MOCK_SCIENCE_DATA, ...localProblems];
+            const allData = [...MOCK_SOCIAL_DATA, ...localProblems];
             console.log('filterDocuments: allData count=', allData.length);
 
             const filteredResults = allData.filter(doc => {
