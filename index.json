@@ -11,13 +11,13 @@
     "pageCount": "2",
     "createdAt": "2026-02-02T07:38:14.311Z",
     "images": [
-      "LOCAL001_problem_1.png",
-      "LOCAL001_problem_2.png"
+      "./problems/LOCAL001_problem_1.png",
+      "./problems/LOCAL001_problem_2.png"
     ],
     "explanationImages": [
-      "LOCAL001_explanation_1.png"
+      "./problems/LOCAL001_explanation_1.png"
     ],
-    "answerImage": "LOCAL001_answer.png"
+    "answerImage": "./problems/LOCAL001_answer.png"
   },
   {
     "id": "LOCAL002",
@@ -31,12 +31,12 @@
     "pageCount": "1",
     "createdAt": "2026-02-02T07:37:56.584Z",
     "images": [
-      "LOCAL002_problem_1.png",
-      "LOCAL002_problem_2.png"
+      "./problems/LOCAL002_problem_1.png",
+      "./problems/LOCAL002_problem_2.png"
     ],
     "explanationImages": [
-      "LOCAL002_explanation_1.png"
+      "./problems/LOCAL002_explanation_1.png"
     ],
-    "answerImage": "LOCAL002_answer.png"
+    "answerImage": "./problems/LOCAL002_answer.png"
   }
 ]
