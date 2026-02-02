@@ -306,7 +306,8 @@
         const PROBLEMS_DIR = 'problems';
         let isFileSystemMode = false;
         let dirHandle = null;
-        let localProblems = []; // ローカル問題データを保持
+        let localProblems = []; // ローカル問題データを保持 (IndexedDB/FileSystem)
+        let onlineProblems = []; // オンライン(静的)データを保持 (index.json)
         let selectedResultCard = null; // 選択中の検索結果カード
 
         // === フィルター用セット ===
@@ -677,6 +678,24 @@
             });
         }
 
+        // === オンラインデータ(静的ファイル)を読み込み ===
+        async function loadOnlineProblems() {
+            try {
+                // キャッシュ回避
+                const response = await fetch('./index.json?t=' + new Date().getTime());
+                if (!response.ok) {
+                    console.log('loadOnlineProblems: index.json not found or error');
+                    return [];
+                }
+                const data = await response.json();
+                console.log('loadOnlineProblems: Loaded', data.length, 'problems');
+                return data;
+            } catch (e) {
+                console.warn('loadOnlineProblems: Fetch error:', e);
+                return [];
+            }
+        }
+
         // === データ再構築とリロード ===
         function reloadAllData() {
             console.log('reloadAllData: Starting...');
@@ -688,9 +707,22 @@
             allMonths = new Set();
 
             // 2. データの結合と再集計
-            if (!localProblems) localProblems = []; // Safety check
-            const allData = [...MOCK_SCIENCE_DATA, ...localProblems];
-            console.log(`reloadAllData: Combined data. Mock: ${MOCK_SCIENCE_DATA.length}, Local: ${localProblems.length}, Total: ${allData.length}`);
+            if (!localProblems) localProblems = [];
+            if (!onlineProblems) onlineProblems = [];
+
+            // IDの重複を防ぐ (Local > Online > Mock)
+            const problemMap = new Map();
+
+            // Mock
+            MOCK_SCIENCE_DATA.forEach(p => problemMap.set(p.id, p));
+            // Online (Mockを上書き、または追加)
+            onlineProblems.forEach(p => problemMap.set(p.id, p));
+            // Local (最強)
+            localProblems.forEach(p => problemMap.set(p.id, p));
+
+            const allData = Array.from(problemMap.values());
+
+            console.log(`reloadAllData: Total unique problems: ${allData.length}`);
 
             allData.forEach(doc => {
                 splitAndAdd(doc.unit, allUnits);
@@ -712,9 +744,12 @@
 
             // 5. ローカルバッジ更新
             const badge = document.getElementById('localCountBadge');
-            if (badge) { // badgeが存在するか確認
+            if (badge) {
                 if (localProblems.length > 0) {
                     badge.textContent = `ローカル: ${localProblems.length}件`;
+                    badge.classList.remove('hidden');
+                } else if (onlineProblems.length > 0) {
+                    badge.textContent = `オンライン: ${onlineProblems.length}件`;
                     badge.classList.remove('hidden');
                 } else {
                     badge.classList.add('hidden');
@@ -770,7 +805,8 @@
                 }
 
                 localProblems = await loadLocalProblems();
-                console.log('window.onload: Local problems loaded.', localProblems);
+                onlineProblems = await loadOnlineProblems(); // オンライン読み込み
+                console.log('window.onload: Problems loaded. Local:', localProblems.length, 'Online:', onlineProblems.length);
             } catch (e) {
                 console.error('IndexedDB初期化エラー:', e);
                 // エラーでも続行（モックデータのみで表示）
