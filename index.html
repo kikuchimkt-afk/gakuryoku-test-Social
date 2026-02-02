@@ -306,8 +306,7 @@
         const PROBLEMS_DIR = 'problems';
         let isFileSystemMode = false;
         let dirHandle = null;
-        let localProblems = []; // ローカル問題データを保持 (IndexedDB/FileSystem)
-        let onlineProblems = []; // オンライン(静的)データを保持 (index.json)
+        let localProblems = []; // ローカル問題データを保持
         let selectedResultCard = null; // 選択中の検索結果カード
 
         // === フィルター用セット ===
@@ -678,21 +677,43 @@
             });
         }
 
-        // === オンラインデータ(静的ファイル)を読み込み ===
-        async function loadOnlineProblems() {
+        // === 静的インデックス読み込み (追加) ===
+        async function loadFromStaticIndex() {
             try {
-                // キャッシュ回避
-                const response = await fetch('./index.json?t=' + new Date().getTime());
+                if (isFileSystemMode) return;
+
+                console.log('Attempting to load static index.json...');
+                const response = await fetch('./index.json');
+
                 if (!response.ok) {
-                    console.log('loadOnlineProblems: index.json not found or error');
-                    return [];
+                    console.warn('Static index.json not found.');
+                    return;
                 }
+
                 const data = await response.json();
-                console.log('loadOnlineProblems: Loaded', data.length, 'problems');
-                return data;
+                if (Array.isArray(data) && data.length > 0) {
+                    localProblems = data;
+                    console.log('Loaded problems from static index.json:', localProblems.length);
+                    // 検索等で使用するためwindowプロパティに追加可能だが、localProblemsで十分
+                    window.isStaticMode = true; // フラグ
+
+                    // UI更新
+                    const statusEl = document.getElementById('storageStatus');
+                    if (statusEl) {
+                        statusEl.textContent = 'オンラインデータ';
+                        statusEl.className = 'text-xs font-medium px-2 py-1 rounded-full bg-blue-100 text-blue-700 border border-blue-200 shadow-sm';
+                    }
+                    const badge = document.getElementById('folderStatusBadge');
+                    if (badge) badge.textContent = 'オンライン';
+
+                    // 接続ボタン隠すなど
+                    const connectBtn = document.getElementById('connectFolderBtn');
+                    if (connectBtn) connectBtn.style.display = 'none';
+
+                    reloadAllData();
+                }
             } catch (e) {
-                console.warn('loadOnlineProblems: Fetch error:', e);
-                return [];
+                console.error('Failed to load static index:', e);
             }
         }
 
@@ -707,16 +728,14 @@
             allMonths = new Set();
 
             // 2. データの結合と再集計
-            if (!localProblems) localProblems = [];
-            if (!onlineProblems) onlineProblems = [];
+            if (!localProblems) localProblems = []; // Safety check
 
             // IDの重複を防ぐ (Local > Online > Mock)
             const problemMap = new Map();
 
             // Mock
             MOCK_SCIENCE_DATA.forEach(p => problemMap.set(p.id, p));
-            // Online (Mockを上書き、または追加)
-            onlineProblems.forEach(p => problemMap.set(p.id, p));
+            // Online (Mockを上書き、または追加) - REMOVED
             // Local (最強)
             localProblems.forEach(p => problemMap.set(p.id, p));
 
@@ -744,12 +763,9 @@
 
             // 5. ローカルバッジ更新
             const badge = document.getElementById('localCountBadge');
-            if (badge) {
+            if (badge) { // badgeが存在するか確認
                 if (localProblems.length > 0) {
                     badge.textContent = `ローカル: ${localProblems.length}件`;
-                    badge.classList.remove('hidden');
-                } else if (onlineProblems.length > 0) {
-                    badge.textContent = `オンライン: ${onlineProblems.length}件`;
                     badge.classList.remove('hidden');
                 } else {
                     badge.classList.add('hidden');
@@ -805,12 +821,14 @@
                 }
 
                 localProblems = await loadLocalProblems();
-                onlineProblems = await loadOnlineProblems(); // オンライン読み込み
-                console.log('window.onload: Problems loaded. Local:', localProblems.length, 'Online:', onlineProblems.length);
+                // ローカル問題が0件なら静的読み込みトライ
+                if (localProblems.length === 0 && !isFileSystemMode) {
+                    await loadFromStaticIndex();
+                }
             } catch (e) {
                 console.error('IndexedDB初期化エラー:', e);
-                // エラーでも続行（モックデータのみで表示）
                 localProblems = [];
+                await loadFromStaticIndex();
             }
 
             // データの前処理（ローカル問題も含める）
