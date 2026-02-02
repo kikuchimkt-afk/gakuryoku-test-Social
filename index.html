@@ -270,8 +270,9 @@
     <script>
         // === データ ===
         // ご提供いただいた5件のサンプルデータ
-        // (キー名をJSで扱いやすい英語に変更しています)
-        const MOCK_SOCIAL_DATA = []; // ローカル（IndexedDB/FileSystem）から読み込んだ問題
+        const MOCK_SOCIAL_DATA = []; // 静的なモックデータ
+        let onlineProblems = [];   // index.json からロードされるデータ
+        let localProblems = [];    // ローカル（IndexedDB/FileSystem）から読み込んだ問題
         let collectedProblemIds = new Set(); // コレクト機能用: 選択された問題ID
 
         // === IndexedDB 設定 ===
@@ -285,7 +286,7 @@
         const PROBLEMS_DIR = 'problems';
         let isFileSystemMode = false;
         let dirHandle = null;
-        let localProblems = []; // ローカル問題データを保持
+        // let localProblems = []; // 重複宣言のため削除
         let selectedResultCard = null; // 選択中の検索結果カード
 
         // === フィルター用セット ===
@@ -712,9 +713,11 @@
             // IDの重複を防ぐ (Local > Online > Mock)
             const problemMap = new Map();
 
+            // Mock, Online, Localの順で優先度を付けて結合
             // Mock
-            MOCK_SCIENCE_DATA.forEach(p => problemMap.set(p.id, p));
-            // Online (Mockを上書き、または追加) - REMOVED
+            MOCK_SOCIAL_DATA.forEach(p => problemMap.set(p.id, p));
+            // Online (Mockを上書き、または追加)
+            onlineProblems.forEach(p => problemMap.set(p.id, p));
             // Local (最強)
             localProblems.forEach(p => problemMap.set(p.id, p));
 
@@ -821,7 +824,33 @@
             // 削除済みサンプルデータをフィルタリング
             filterDeletedSamples();
 
-            const allData = [...MOCK_SOCIAL_DATA, ...localProblems];
+            // index.json (Vercel用エクスポートデータ) の読み込み
+            try {
+                const res = await fetch('./index.json?t=' + new Date().getTime());
+                if (res.ok) {
+                    onlineProblems = await res.json();
+                    console.log('Loaded index.json (onlineProblems):', onlineProblems.length);
+
+                    // ストレージ状態を「オンライン」に更新 (未接続時のみ)
+                    if (!isFileSystemMode) {
+                        const statusEl = document.getElementById('storageStatus');
+                        if (statusEl) {
+                            statusEl.textContent = 'オンラインデータ';
+                            statusEl.className = 'text-xs font-medium px-2 py-1 rounded-full bg-blue-100 text-blue-700 border border-blue-200 shadow-sm';
+                        }
+                        const badge = document.getElementById('folderStatusBadge');
+                        if (badge) badge.textContent = 'オンライン';
+
+                        // 接続ボタンのラベル変更
+                        const connectBtn = document.getElementById('connectFolderBtn');
+                        if (connectBtn) connectBtn.innerHTML = '📁 フォルダに接続 (編集用)';
+                    }
+                }
+            } catch (e) {
+                console.log('No index.json found or load failed', e);
+            }
+
+            const allData = [...MOCK_SOCIAL_DATA, ...onlineProblems, ...localProblems];
             allData.forEach(doc => {
                 splitAndAdd(doc.unit, allUnits);
                 splitAndAdd(doc.grade, allGrades);
@@ -937,6 +966,7 @@
                             <span class="text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded">${doc.year || '不明'}年度${doc.month ? doc.month + '月' : ''}</span>
                             <span class="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded">${doc.grade}年</span>
                             ${isLocal ? '<span class="text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded">Local</span>' : ''}
+                            ${onlineProblems.some(op => op.id === doc.id) ? '<span class="text-xs bg-cyan-100 text-cyan-700 px-2 py-0.5 rounded border border-cyan-200">Online</span>' : ''}
                         </div>
                         <div class="collection-checkbox" onclick="toggleCollection('${doc.id}', event)">
                             <input type="checkbox" ${isCollected ? 'checked' : ''} class="w-5 h-5 text-indigo-600 rounded focus:ring-indigo-500 cursor-pointer">
@@ -1259,7 +1289,8 @@
         // === 詳細表示 ===
         function viewDetails(docId, cardElement) {
             // ローカル問題かMOCK_DATAから検索
-            let doc = MOCK_SCIENCE_DATA.find(d => d.id === docId);
+            let doc = MOCK_SOCIAL_DATA.find(d => d.id === docId);
+            if (!doc) doc = onlineProblems.find(d => d.id === docId);
             const isLocal = docId.startsWith('LOCAL');
             if (isLocal) {
                 doc = localProblems.find(d => d.id === docId);
@@ -1624,38 +1655,30 @@
 
             resultsContainer.innerHTML = results.map((doc, index) => {
                 const isSelected = selectedResultCard && selectedResultCard.dataset.id === doc.id;
-
-                // --- Glassmorphism Effect for Result Card ---
-                // bg-white/60 or similar is now handled by .result-card class in CSS
-                // We just ensure we use 'result-card' class.
+                const isCollected = collectedProblemIds.has(doc.id);
 
                 return `
-                <div class="result-card p-4 rounded-lg shadow-sm cursor-pointer border ${isSelected ? 'selected' : 'border-white/30'}"
+                <div class="result-card p-4 rounded-lg shadow-sm cursor-pointer border ${isSelected ? 'selected' : 'border-white/30'} relative"
                     onclick="viewDetails('${doc.id}', this)"
                     data-id="${doc.id}">
-                    <div class="flex justify-between items-start mb-2">
+                    
+                    <!-- Checkbox in top-right -->
+                    <div class="absolute top-3 right-3 z-20">
+                        <input type="checkbox" 
+                            ${isCollected ? 'checked' : ''} 
+                            onclick="toggleCollection('${doc.id}', event)"
+                            class="w-5 h-5 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500 cursor-pointer">
+                    </div>
+
+                    <div class="flex justify-between items-start mb-2 pr-8">
                         <div class="flex items-center gap-2">
                             <span class="bg-indigo-100/80 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded backdrop-blur-sm">${doc.id}</span>
                             <span class="text-xs font-bold ${doc.grade === '1' ? 'text-green-700 bg-green-100/80' : doc.grade === '2' ? 'text-blue-700 bg-blue-100/80' : 'text-purple-700 bg-purple-100/80'} px-2 py-0.5 rounded backdrop-blur-sm">中${doc.grade}</span>
                         </div>
-                        <span class="text-xs text-gray-700 font-medium">${doc.source_pdf}</span>
                     </div>
-                    <h3 class="text-lg font-bold text-gray-900 mb-1">${doc.unit}</h3>
-                    <p class="text-sm text-gray-800 mb-2 truncate">${doc.keywords}</p>
-                    <div class="flex flex-wrap gap-2 mt-2">
-                        <!-- コレクトボタン -->
-                        <button onclick="event.stopPropagation(); toggleCollection('${doc.id}')" 
-                            class="text-xs px-2 py-1 rounded transition-colors border shadow-sm ${collectedProblemIds.has(doc.id)
-                        ? 'bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-700'
-                        : 'bg-white/50 text-gray-700 border-gray-300 hover:bg-white/80'}">
-                            ${collectedProblemIds.has(doc.id) ? '選択解除' : '選択'}
-                        </button>
-                        
-                        <button onclick="event.stopPropagation(); window.open('pdfs/${doc.source_pdf}', '_blank')" 
-                            class="text-xs bg-gray-200/80 hover:bg-gray-300/80 text-gray-800 px-2 py-1 rounded transition-colors backdrop-blur-sm">
-                            PDFを見る
-                        </button>
-                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-1 pr-6">${doc.unit}</h3>
+                    <p class="text-xs text-gray-600 mb-1">${doc.source_pdf || 'Local Registration'}</p>
+                    <p class="text-sm text-gray-800 mb-2 line-clamp-2">${doc.keywords || ''}</p>
                 </div>
                 `;
             }).join('');
@@ -2054,7 +2077,8 @@
 
         // === 個別PDF作成機能 ===
         async function generatePDF(id, is2Up = false) {
-            let docData = MOCK_SCIENCE_DATA.find(d => d.id === id);
+            let docData = MOCK_SOCIAL_DATA.find(d => d.id === id);
+            if (!docData) docData = onlineProblems.find(d => d.id === id);
             if (!docData) docData = localProblems.find(d => d.id === id);
 
             if (!docData) {
@@ -2140,7 +2164,8 @@
                 const ids = Array.from(collectedProblemIds);
 
                 for (const id of ids) {
-                    let docData = MOCK_SCIENCE_DATA.find(d => d.id === id);
+                    let docData = MOCK_SOCIAL_DATA.find(d => d.id === id);
+                    if (!docData) docData = onlineProblems.find(d => d.id === id);
                     if (!docData) docData = localProblems.find(d => d.id === id);
                     if (!docData) continue;
 
