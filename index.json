@@ -3,13 +3,13 @@
     "id": "LOCAL001",
     "grade": "2",
     "unit": "日本の諸地域（西日本）",
-    "keywords": "火山,桜島,筑紫平野,筑後川,二毛作,促成栽培,宮崎平野,農業,九州地方,地形，中国地方，関西地方",
+    "keywords": "火山,桜島,筑紫平野,筑後川,二毛作,促成栽培,宮崎平野,農業,九州地方,地形，中国地方，近畿地方",
     "year": "2025",
     "month": "2",
     "testType": "学力テスト",
     "comment": "",
     "pageCount": "2",
-    "createdAt": "2026-02-02T07:38:14.311Z",
+    "createdAt": "2026-02-03T07:22:59.476Z",
     "images": [
       "./problems/LOCAL001_problem_1.png",
       "./problems/LOCAL001_problem_2.png"
@@ -1063,5 +1063,264 @@
       "./problems/LOCAL054_explanation_1.png"
     ],
     "answerImage": "./problems/LOCAL054_answer.png"
+  },
+  {
+    "id": "LOCAL055",
+    "grade": "3",
+    "unit": "世界地理総合",
+    "keywords": "雨温図,地中海,レアメタル,ASEAN,アボリジニ,サンベルト,統計資料,農産物,世界地図,気候帯",
+    "year": "2025",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:11:39.234Z",
+    "images": [
+      "./problems/LOCAL055_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL055_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL055_answer.png"
+  },
+  {
+    "id": "LOCAL056",
+    "grade": "3",
+    "unit": "日本地理総合",
+    "keywords": "酪農,排他的経済水域,北九州工業地帯,東北地方,中部地方,製造品出荷額,領土,伝統的工芸品,水産資源,鉱産資源",
+    "year": "2025",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:12:37.359Z",
+    "images": [
+      "./problems/LOCAL056_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL056_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL056_answer.png"
+  },
+  {
+    "id": "LOCAL057",
+    "grade": "3",
+    "unit": "近代・現代の日本と世界",
+    "keywords": "富国強兵,富岡製糸場,内閣制度,日露戦争,第一次世界大戦,全国水平社,世界恐慌,ニューディール政策,第二次世界大戦,石油危機",
+    "year": "2025",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:14:04.071Z",
+    "images": [
+      "./problems/LOCAL057_problem_1.png",
+      "./problems/LOCAL057_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL057_explanation_1.png",
+      "./problems/LOCAL057_explanation_2.png"
+    ],
+    "answerImage": "./problems/LOCAL057_answer.png"
+  },
+  {
+    "id": "LOCAL058",
+    "grade": "3",
+    "unit": "現代社会の特色と私たち",
+    "keywords": "年中行事,家族の形態,人口構成,人口ピラミッド,少子高齢化,情報社会,情報リテラシー,メディアリテラシー,社会集団,伝統文化",
+    "year": "2025",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:15:19.150Z",
+    "images": [
+      "./problems/LOCAL058_problem_1.png",
+      "./problems/LOCAL058_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL058_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL058_answer.png"
+  },
+  {
+    "id": "LOCAL059",
+    "grade": "3",
+    "unit": "日本国憲法",
+    "keywords": "日本国憲法,国民主権,平和主義,基本的人権,天皇,自由権,社会権,公共の福祉,国事行為,第9条,社会契約論",
+    "year": "2025",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:16:00.302Z",
+    "images": [
+      "./problems/LOCAL059_problem_1.png",
+      "./problems/LOCAL059_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL059_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL059_answer.png"
+  },
+  {
+    "id": "LOCAL060",
+    "grade": "2",
+    "unit": "日本の地域的特色",
+    "keywords": "日本アルプス,リアス海岸,季節風,雨温図,日本海側,太平洋側,自然災害,気候,地形,降水量",
+    "year": "2025",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:18:21.511Z",
+    "images": [
+      "./problems/LOCAL060_problem_1.png",
+      "./problems/LOCAL060_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL060_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL060_answer.png"
+  },
+  {
+    "id": "LOCAL061",
+    "grade": "2",
+    "unit": "近畿地方",
+    "keywords": "近畿地方,淡路島,断面図,地形図,淀川,標高,地形,地理,高槻市,日本地理",
+    "year": "2025",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:19:59.690Z",
+    "images": [
+      "./problems/LOCAL061_problem_1.png",
+      "./problems/LOCAL061_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL061_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL061_answer.png"
+  },
+  {
+    "id": "LOCAL062",
+    "grade": "2",
+    "unit": "江戸幕府の成立と政治",
+    "keywords": "江戸幕府,関ヶ原の戦い,武家諸法度,参勤交代,島原・天草一揆,出島,シャクシャイン,大老,老中,勘定奉行",
+    "year": "2025",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:22:26.264Z",
+    "images": [
+      "./problems/LOCAL062_problem_1.png",
+      "./problems/LOCAL062_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL062_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL062_answer.png"
+  },
+  {
+    "id": "LOCAL063",
+    "grade": "2",
+    "unit": "近世の日本",
+    "keywords": "徳川綱吉,徳川吉宗,松平定信,朱子学,生類憐みの令,元禄文化,享保の改革,公事方御定書,参勤交代,江戸幕府",
+    "year": "2025",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:22:08.305Z",
+    "images": [
+      "./problems/LOCAL063_problem_1.png",
+      "./problems/LOCAL063_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL063_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL063_answer.png"
+  },
+  {
+    "id": "LOCAL064",
+    "grade": "1",
+    "unit": "アジア州",
+    "keywords": "ヒマラヤ山脈,ペルシャ湾,原油,中国,経済特区,出稼ぎ,大気汚染,アジア州,環境問題,鉱産資源",
+    "year": "2025",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:24:40.664Z",
+    "images": [
+      "./problems/LOCAL064_problem_1.png",
+      "./problems/LOCAL064_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL064_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL064_answer.png"
+  },
+  {
+    "id": "LOCAL065",
+    "grade": "1",
+    "unit": "ヨーロッパ州",
+    "keywords": "北大西洋海流,偏西風,北海,暖流,フランス,航空機,アルプス山脈,地中海,輸出,ゲルマン系",
+    "year": "2025",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:25:35.115Z",
+    "images": [
+      "./problems/LOCAL065_problem_1.png",
+      "./problems/LOCAL065_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL065_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL065_answer.png"
+  },
+  {
+    "id": "LOCAL066",
+    "grade": "1",
+    "unit": "古代の日本と東アジア",
+    "keywords": "聖徳太子,遣隋使,十七条の憲法,冠位十二階,法隆寺,大化の改新,壬申の乱,大宝律令,小野妹子,飛鳥時代",
+    "year": "2025",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:26:35.076Z",
+    "images": [
+      "./problems/LOCAL066_problem_1.png",
+      "./problems/LOCAL066_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL066_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL066_answer.png"
+  },
+  {
+    "id": "LOCAL067",
+    "grade": "1",
+    "unit": "奈良時代の政治と文化",
+    "keywords": "平城京,聖武天皇,東大寺,大仏,遣唐使,正倉院,万葉集,口分田,長安,奈良時代",
+    "year": "2025",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:27:29.399Z",
+    "images": [
+      "./problems/LOCAL067_problem_1.png",
+      "./problems/LOCAL067_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL067_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL067_answer.png"
   }
 ]
