@@ -54,14 +54,23 @@
         }
 
         /* 検索結果カードのホバーエフェクト */
+        .result-card {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
         .result-card:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-            border-color: rgba(99, 102, 241, 0.5);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.95);
         }
 
         .result-card.selected {
-            background-color: rgba(199, 210, 254, 0.8) !important;
+            background-color: rgba(199, 210, 254, 0.9) !important;
+            /* bg-indigo-200 */
             border-color: #4338ca !important;
             border-left-width: 6px !important;
             border-left-color: #4338ca !important;
@@ -80,6 +89,7 @@
             color: #4338ca;
             font-size: 14px;
             font-weight: bold;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
         }
 
         /* Custom Scrollbar */
@@ -802,7 +812,12 @@
             // 削除済みサンプルデータをフィルタリング
             filterDeletedSamples();
 
-            const allData = [...MOCK_SOCIAL_DATA, ...localProblems];
+            const problemMap = new Map();
+            MOCK_SOCIAL_DATA.forEach(p => problemMap.set(p.id, p));
+            onlineProblems.forEach(p => problemMap.set(p.id, p));
+            localProblems.forEach(p => problemMap.set(p.id, p));
+            const allData = Array.from(problemMap.values());
+
             allData.forEach(doc => {
                 splitAndAdd(doc.unit, allUnits);
                 splitAndAdd(doc.grade, allGrades);
@@ -838,7 +853,6 @@
                     }
                 });
             }
-            // selectFolderBtn リスナーは削除
 
             // 初期表示
             console.log('window.onload: Executing initial filterDocuments...');
@@ -895,7 +909,7 @@
                 const isLocal = doc.id.startsWith('LOCAL');
                 const isCollected = collectedProblemIds.has(doc.id);
                 const item = document.createElement('div');
-                item.className = `result-card bg-white p-4 rounded-lg border shadow-sm transition-all duration-200 cursor-pointer ${isCollected ? 'border-indigo-500 bg-indigo-50 ring-1 ring-indigo-500' : 'border-gray-200 hover:border-indigo-300'}`;
+                item.className = `result-card p-4 rounded-lg border shadow-sm transition-all duration-200 cursor-pointer ${isCollected ? 'border-indigo-500 bg-indigo-50/90 ring-1 ring-indigo-500' : 'border-white/40 hover:border-indigo-300'}`;
                 item.onclick = (e) => {
                     // チェックボックスのクリックはバブリングでここに来るが、
                     // カード自体のクリックで詳細表示したい場合と、チェックボックスで選択したい場合を分ける
@@ -915,13 +929,9 @@
                             ${isLocal ? '<span class="text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded">Local</span>' : ''}
                             ${onlineProblems.some(op => op.id === doc.id) ? '<span class="text-xs bg-cyan-100 text-cyan-700 px-2 py-0.5 rounded border border-cyan-200">Online</span>' : ''}
                         </div>
-                        <!-- Checkbox in top-right -->
-                    <div class="absolute top-3 right-3 z-20">
-                        <input type="checkbox" 
-                            ${isCollected ? 'checked' : ''} 
-                            onclick="toggleCollection('${doc.id}', event)"
-                            class="w-5 h-5 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500 cursor-pointer">
-                    </div>
+                        <div class="collection-checkbox" onclick="toggleCollection('${doc.id}', event)">
+                            <input type="checkbox" ${isCollected ? 'checked' : ''} class="w-5 h-5 text-indigo-600 rounded focus:ring-indigo-500 cursor-pointer">
+                        </div>
                     </div>
                     
                     <h3 class="font-bold text-gray-800 mb-2 line-clamp-2">${doc.unit}</h3>
@@ -1474,8 +1484,13 @@
 
             console.log('filterDocuments: keywordInput=', keywordInput, ', keywords=', keywords, ', searchMode=', searchMode);
 
-            // 全データ（既存 + ローカル）をフィルタリング
-            const allData = [...MOCK_SOCIAL_DATA, ...localProblems];
+            // 全データ（Mock + Online + Local）をマージしてフィルタリング
+            const problemMap = new Map();
+            MOCK_SOCIAL_DATA.forEach(p => problemMap.set(p.id, p));
+            onlineProblems.forEach(p => problemMap.set(p.id, p));
+            localProblems.forEach(p => problemMap.set(p.id, p));
+            const allData = Array.from(problemMap.values());
+
             console.log('filterDocuments: allData count=', allData.length);
 
             const filteredResults = allData.filter(doc => {
