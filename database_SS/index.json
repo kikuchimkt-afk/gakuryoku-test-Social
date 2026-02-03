@@ -508,5 +508,560 @@
       "LOCAL026_explanation_1.png"
     ],
     "answerImage": "LOCAL026_answer.png"
+  },
+  {
+    "id": "LOCAL027",
+    "grade": "3",
+    "unit": "世界地理総合",
+    "keywords": "白夜,気温,太陽,地球の自転,季節,緯度,ギニア湾,カカオ,宗教,多文化主義",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:30:11.861Z",
+    "images": [
+      "LOCAL027_problem_1.png",
+      "LOCAL027_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL027_explanation_1.png"
+    ],
+    "answerImage": "LOCAL027_answer.png"
+  },
+  {
+    "id": "LOCAL028",
+    "grade": "3",
+    "unit": "日本地理総合",
+    "keywords": "オホーツク海,流氷,東北地方,農業産出額,稲作,統計資料の読み取り,ニュータウン,過密,郊外,日本の諸地域",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:29:51.815Z",
+    "images": [
+      "LOCAL028_problem_1.png",
+      "LOCAL028_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL028_explanation_1.png"
+    ],
+    "answerImage": "LOCAL028_answer.png"
+  },
+  {
+    "id": "LOCAL029",
+    "grade": "3",
+    "unit": "日本の歴史（古代〜近世）",
+    "keywords": "聖武天皇,東大寺の大仏,運慶,応仁の乱,下剋上,鉄砲伝来,鎖国,朝鮮通信使,ペリー,奈良時代",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:31:21.747Z",
+    "images": [
+      "LOCAL029_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL029_explanation_1.png"
+    ],
+    "answerImage": "LOCAL029_answer.png"
+  },
+  {
+    "id": "LOCAL030",
+    "grade": "3",
+    "unit": "近代・現代の日本と世界",
+    "keywords": "自由民権運動,大正デモクラシー,護憲運動,満州国,第二次世界大戦,財閥解体,高度経済成長,55年体制,帝国議会,民主化",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:32:22.892Z",
+    "images": [
+      "LOCAL030_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL030_explanation_1.png"
+    ],
+    "answerImage": "LOCAL030_answer.png"
+  },
+  {
+    "id": "LOCAL031",
+    "grade": "3",
+    "unit": "現代の民主政治",
+    "keywords": "国会,衆議院の優越,比例代表制,ドント式,内閣,地方自治,直接請求,裁判員制度,家計,社会保障",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:33:22.641Z",
+    "images": [
+      "LOCAL031_problem_1.png",
+      "LOCAL031_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL031_explanation_1.png"
+    ],
+    "answerImage": "LOCAL031_answer.png"
+  },
+  {
+    "id": "LOCAL032",
+    "grade": "3",
+    "unit": "現代の民主政治",
+    "keywords": "衆議院,参議院,三権分立,国会,内閣,裁判所,ドント式,衆議院の優越,地方自治,比例代表制",
+    "year": "",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:34:05.917Z",
+    "images": [
+      "LOCAL032_problem_1.png",
+      "LOCAL032_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL032_explanation_1.png"
+    ],
+    "answerImage": "LOCAL032_answer.png"
+  },
+  {
+    "id": "LOCAL033",
+    "grade": "2",
+    "unit": "東北地方",
+    "keywords": "やませ,冷害,東北地方,気候,奥羽山脈,最上川,夏,北東の風",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:36:04.581Z",
+    "images": [
+      "LOCAL033_problem_1.png",
+      "LOCAL033_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL033_explanation_1.png"
+    ],
+    "answerImage": "LOCAL033_answer.png"
+  },
+  {
+    "id": "LOCAL034",
+    "grade": "2",
+    "unit": "北海道地方",
+    "keywords": "北海道,有珠山,世界ジオパーク,石狩平野,泥炭地,十勝平野,畑作,小麦,てんさい,客土",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:37:29.383Z",
+    "images": [
+      "LOCAL034_problem_1.png",
+      "LOCAL034_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL034_explanation_1.png"
+    ],
+    "answerImage": "LOCAL034_answer.png"
+  },
+  {
+    "id": "LOCAL035",
+    "grade": "2",
+    "unit": "欧米における近代社会の成立",
+    "keywords": "ピューリタン革命,名誉革命,独立戦争,フランス革命,産業革命,資本主義,三権分立,モンテスキュー,南北戦争,権利章典",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:38:48.170Z",
+    "images": [
+      "LOCAL035_problem_1.png",
+      "LOCAL035_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL035_explanation_1.png",
+      "LOCAL035_explanation_2.png"
+    ],
+    "answerImage": "LOCAL035_answer.png"
+  },
+  {
+    "id": "LOCAL036",
+    "grade": "2",
+    "unit": "開国と幕末の動き",
+    "keywords": "ペリー,浦賀,日米和親条約,日米修好通商条約,生糸,大政奉還,幕末,下田,函館,薩摩藩",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:40:22.892Z",
+    "images": [
+      "LOCAL036_problem_1.png",
+      "LOCAL036_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL036_explanation_1.png"
+    ],
+    "answerImage": "LOCAL036_answer.png"
+  },
+  {
+    "id": "LOCAL037",
+    "grade": "1",
+    "unit": "北アメリカ",
+    "keywords": "ロッキー山脈,グレートプレーンズ,プレーリー,中央平原,メキシコ湾,ヒスパニック,スペイン語,雨温図,アメリカ合衆国,気候",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:42:31.730Z",
+    "images": [
+      "LOCAL037_problem_1.png",
+      "LOCAL037_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL037_explanation_1.png"
+    ],
+    "answerImage": "LOCAL037_answer.png"
+  },
+  {
+    "id": "LOCAL038",
+    "grade": "1",
+    "unit": "南アメリカ州",
+    "keywords": "アマゾン川,焼畑農業,パンパ,ブラジル,リオデジャネイロ,放牧,南アメリカ州,熱帯雨林，バイオエタノール",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:43:47.845Z",
+    "images": [
+      "LOCAL038_problem_1.png",
+      "LOCAL038_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL038_explanation_1.png"
+    ],
+    "answerImage": "LOCAL038_answer.png"
+  },
+  {
+    "id": "LOCAL039",
+    "grade": "1",
+    "unit": "平安時代",
+    "keywords": "桓武天皇,平安京,空海,真言宗,最澄,藤原氏,摂関政治,平清盛,日宋貿易,藤原純友の乱",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:44:57.321Z",
+    "images": [
+      "LOCAL039_problem_1.png",
+      "LOCAL039_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL039_explanation_1.png"
+    ],
+    "answerImage": "LOCAL039_answer.png"
+  },
+  {
+    "id": "LOCAL040",
+    "grade": "1",
+    "unit": "鎌倉時代",
+    "keywords": "源頼朝,鎌倉幕府,壇ノ浦の戦い,御恩と奉公,御家人,承久の乱,北条氏,執権,元寇,鎌倉文化",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:46:18.068Z",
+    "images": [
+      "LOCAL040_problem_1.png",
+      "LOCAL040_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL040_explanation_1.png"
+    ],
+    "answerImage": "LOCAL040_answer.png"
+  },
+  {
+    "id": "LOCAL041",
+    "grade": "3",
+    "unit": "世界地理総合",
+    "keywords": "スカンジナビア半島,イスラム教,メッカ,バイオ燃料,バイオエタノール,人口密度,国民総所得,サウジアラビア,カナダ,ブラジル",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:47:50.150Z",
+    "images": [
+      "LOCAL041_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL041_explanation_1.png"
+    ],
+    "answerImage": "LOCAL041_answer.png"
+  },
+  {
+    "id": "LOCAL042",
+    "grade": "3",
+    "unit": "日本地理総合",
+    "keywords": "中国・四国地方,山陰,北海道,北方領土,三陸海岸,潮目,農業産出額,阪神工業地帯,工業地帯,世界自然遺産",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:49:03.510Z",
+    "images": [
+      "LOCAL042_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL042_explanation_1.png"
+    ],
+    "answerImage": "LOCAL042_answer.png"
+  },
+  {
+    "id": "LOCAL043",
+    "grade": "3",
+    "unit": "日本の歴史（古代〜近世）",
+    "keywords": "平城京,平等院鳳凰堂,執権,室町時代,織田信長,長篠の戦い,関ヶ原の戦い,享保の改革,寛政の改革,天保の改革",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:50:09.524Z",
+    "images": [
+      "LOCAL043_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL043_explanation_1.png"
+    ],
+    "answerImage": "LOCAL043_answer.png"
+  },
+  {
+    "id": "LOCAL044",
+    "grade": "3",
+    "unit": "近現代の日本と世界",
+    "keywords": "五・一五事件,日露戦争,ポーツマス条約,治安維持法,朝鮮戦争,冷戦,満州国,日英同盟,近現代史,風刺画",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:50:57.204Z",
+    "images": [
+      "LOCAL044_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL044_explanation_1.png"
+    ],
+    "answerImage": "LOCAL044_answer.png"
+  },
+  {
+    "id": "LOCAL045",
+    "grade": "3",
+    "unit": "日本国憲法",
+    "keywords": "日本国憲法,国民主権,平和主義,基本的人権の尊重,象徴天皇制,国事行為,内閣の助言と承認,憲法第9条,社会権,インクルージョン",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:52:02.035Z",
+    "images": [
+      "LOCAL045_problem_1.png",
+      "LOCAL045_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL045_explanation_1.png"
+    ],
+    "answerImage": "LOCAL045_answer.png"
+  },
+  {
+    "id": "LOCAL046",
+    "grade": "3",
+    "unit": "現代の民主政治",
+    "keywords": "選挙,国会,内閣,裁判所,衆議院,参議院,被選挙権,三権分立,地方自治,内閣不信任",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:53:29.864Z",
+    "images": [
+      "LOCAL046_problem_1.png",
+      "LOCAL046_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL046_explanation_1.png"
+    ],
+    "answerImage": "LOCAL046_answer.png"
+  },
+  {
+    "id": "LOCAL047",
+    "grade": "2",
+    "unit": "中部地方",
+    "keywords": "中部地方,信濃川,雨温図,太平洋側,東海,渥美半島,豊川用水,四日市市,自動車工業,理科年表",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:55:38.366Z",
+    "images": [
+      "LOCAL047_problem_1.png",
+      "LOCAL047_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL047_explanation_1.png"
+    ],
+    "answerImage": "LOCAL047_answer.png"
+  },
+  {
+    "id": "LOCAL048",
+    "grade": "2",
+    "unit": "関東地方",
+    "keywords": "関東地方,関東山地,関東ローム,火山灰,季節風,伊豆諸島,小笠原諸島,地形,気候,東京都",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:57:28.797Z",
+    "images": [
+      "LOCAL048_problem_1.png",
+      "LOCAL048_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL048_explanation_1.png"
+    ],
+    "answerImage": "LOCAL048_answer.png"
+  },
+  {
+    "id": "LOCAL049",
+    "grade": "2",
+    "unit": "江戸幕府の政治と改革",
+    "keywords": "享保の改革,田沼意次,寛政の改革,徳川吉宗,松平定信,上げ米の制,株仲間,公事方御定書,長崎貿易,江戸時代",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:00:12.751Z",
+    "images": [
+      "LOCAL049_problem_1.png",
+      "LOCAL049_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL049_explanation_1.png"
+    ],
+    "answerImage": "LOCAL049_answer.png"
+  },
+  {
+    "id": "LOCAL050",
+    "grade": "2",
+    "unit": "欧米の市民革命と産業革命",
+    "keywords": "ピューリタン革命,産業革命,独立戦争,フランス革命,アヘン戦争,南北戦争,資本主義,クロムウェル,人権宣言,ルソー",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T06:59:58.065Z",
+    "images": [
+      "LOCAL050_problem_1.png",
+      "LOCAL050_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL050_explanation_1.png"
+    ],
+    "answerImage": "LOCAL050_answer.png"
+  },
+  {
+    "id": "LOCAL051",
+    "grade": "1",
+    "unit": "ヨーロッパ州",
+    "keywords": "ヨーロッパ,雨温図,地中海性気候,スカンディナビア半島,地中海,ぶどう,農産物,地理",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:01:56.822Z",
+    "images": [
+      "LOCAL051_problem_1.png",
+      "LOCAL051_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL051_explanation_1.png"
+    ],
+    "answerImage": "LOCAL051_answer.png"
+  },
+  {
+    "id": "LOCAL052",
+    "grade": "1",
+    "unit": "アフリカ州",
+    "keywords": "ナイル川,エチオピア高原,アフリカ州,植民地支配,奴隷,カカオ豆,コートジボワール,ガーナ",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:03:15.763Z",
+    "images": [
+      "LOCAL052_problem_1.png",
+      "LOCAL052_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL052_explanation_1.png"
+    ],
+    "answerImage": "LOCAL052_answer.png"
+  },
+  {
+    "id": "LOCAL053",
+    "grade": "1",
+    "unit": "奈良時代",
+    "keywords": "大宝律令,奈良時代,聖武天皇,東大寺の大仏,班田収授法,租庸調,防人,平城京,雑徭,戸籍",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:04:56.927Z",
+    "images": [
+      "LOCAL053_problem_1.png",
+      "LOCAL053_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL053_explanation_1.png"
+    ],
+    "answerImage": "LOCAL053_answer.png"
+  },
+  {
+    "id": "LOCAL054",
+    "grade": "1",
+    "unit": "平安時代",
+    "keywords": "桓武天皇,平安時代,坂上田村麻呂,藤原氏,国風文化,浄土信仰,摂関政治,摂政,関白,平安京",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-03T07:06:41.016Z",
+    "images": [
+      "LOCAL054_problem_1.png",
+      "LOCAL054_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL054_explanation_1.png"
+    ],
+    "answerImage": "LOCAL054_answer.png"
   }
 ]
