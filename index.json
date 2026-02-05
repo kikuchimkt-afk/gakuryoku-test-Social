@@ -1322,5 +1322,521 @@
       "./problems/LOCAL067_explanation_1.png"
     ],
     "answerImage": "./problems/LOCAL067_answer.png"
+  },
+  {
+    "id": "LOCAL068",
+    "grade": "3",
+    "unit": "世界地理総合",
+    "keywords": "三大洋,太平洋,ヒマラヤ山脈,高床式住居,永久凍土,言語系統,ゲルマン系,ラテン系,スラブ系,ヨーロッパ",
+    "year": "2025",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:25:13.683Z",
+    "images": [
+      "./problems/LOCAL068_problem_1.png",
+      "./problems/LOCAL068_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL068_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL068_answer.png"
+  },
+  {
+    "id": "LOCAL069",
+    "grade": "3",
+    "unit": "日本地理総合",
+    "keywords": "カルデラ,対馬海流,本州四国連絡橋,時差,標準時子午線,貿易,集積回路,航空輸送,関西国際空港,日本の気候",
+    "year": "2025",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:27:01.459Z",
+    "images": [
+      "./problems/LOCAL069_problem_1.png",
+      "./problems/LOCAL069_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL069_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL069_answer.png"
+  },
+  {
+    "id": "LOCAL070",
+    "grade": "3",
+    "unit": "古代から近世までの日本",
+    "keywords": "弥生時代,古墳時代,大和政権,奈良時代,摂関政治,鎌倉時代,室町幕府,戦国時代,豊臣秀吉,江戸時代",
+    "year": "2025",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:28:24.323Z",
+    "images": [
+      "./problems/LOCAL070_problem_1.png",
+      "./problems/LOCAL070_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL070_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL070_answer.png"
+  },
+  {
+    "id": "LOCAL071",
+    "grade": "3",
+    "unit": "現代社会と私たち",
+    "keywords": "グローバル化,少子高齢化,核家族,情報化,合計特殊出生率,公正と効率,年中行事,国際分業,文化,持続可能な社会",
+    "year": "2025",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:29:29.390Z",
+    "images": [
+      "./problems/LOCAL071_problem_1.png",
+      "./problems/LOCAL071_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL071_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL071_answer.png"
+  },
+  {
+    "id": "LOCAL072",
+    "grade": "2",
+    "unit": "日本の地域的特色",
+    "keywords": "日本アルプス,信濃川,越後平野,季節風,人口分布,三大都市圏,資源,エネルギー,貿易,人口減少",
+    "year": "2025",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:31:02.067Z",
+    "images": [
+      "./problems/LOCAL072_problem_1.png",
+      "./problems/LOCAL072_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL072_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL072_answer.png"
+  },
+  {
+    "id": "LOCAL073",
+    "grade": "2",
+    "unit": "九州・中国・四国地方",
+    "keywords": "火山,カルデラ,雨温図,気温,降水量,阿蘇山,山陰,中国・四国地方,気象,地学",
+    "year": "2025",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:32:51.301Z",
+    "images": [
+      "./problems/LOCAL073_problem_1.png",
+      "./problems/LOCAL073_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL073_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL073_answer.png"
+  },
+  {
+    "id": "LOCAL074",
+    "grade": "2",
+    "unit": "安土桃山時代",
+    "keywords": "種子島,鉄砲の伝来,フランシスコ・ザビエル,キリスト教,織田信長,長篠の戦い,安土城,豊臣秀吉,天下統一,カトリック",
+    "year": "2025",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:34:33.434Z",
+    "images": [
+      "./problems/LOCAL074_problem_1.png",
+      "./problems/LOCAL074_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL074_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL074_answer.png"
+  },
+  {
+    "id": "LOCAL075",
+    "grade": "2",
+    "unit": "江戸幕府の成立と支配",
+    "keywords": "徳川家康,関ヶ原の戦い,江戸幕府,武家諸法度,鎖国,参勤交代,五人組,幕藩体制,身分制度,町人",
+    "year": "2025",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:36:09.722Z",
+    "images": [
+      "./problems/LOCAL075_problem_1.png",
+      "./problems/LOCAL075_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL075_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL075_answer.png"
+  },
+  {
+    "id": "LOCAL076",
+    "grade": "1",
+    "unit": "世界の人々の生活と環境",
+    "keywords": "気候帯,温帯,気温,降水量,雨温図,ツンドラ気候,理科年表,ステップ気候,サバナ気候,西岸海洋性気候",
+    "year": "2025",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:38:14.948Z",
+    "images": [
+      "./problems/LOCAL076_problem_1.png",
+      "./problems/LOCAL076_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL076_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL076_answer.png"
+  },
+  {
+    "id": "LOCAL077",
+    "grade": "1",
+    "unit": "アジア州",
+    "keywords": "雨温図,アジア,気候,アラビア半島,大韓民国,気温,降水量,理科年表,略地図,季節風",
+    "year": "2025",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:40:08.811Z",
+    "images": [
+      "./problems/LOCAL077_problem_1.png",
+      "./problems/LOCAL077_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL077_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL077_answer.png"
+  },
+  {
+    "id": "LOCAL078",
+    "grade": "1",
+    "unit": "古代国家の形成",
+    "keywords": "邪馬台国,卑弥呼,古墳,大和政権,仏教伝来,金印,志賀島,倭,奴国,光武帝",
+    "year": "2025",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:42:35.265Z",
+    "images": [
+      "./problems/LOCAL078_problem_1.png",
+      "./problems/LOCAL078_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL078_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL078_answer.png"
+  },
+  {
+    "id": "LOCAL079",
+    "grade": "1",
+    "unit": "古代の日本",
+    "keywords": "聖徳太子,飛鳥文化,冠位十二階,十七条の憲法,中大兄皇子,白村江の戦い,遣隋使,仏教,大化の改新,壬申の乱",
+    "year": "2025",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:44:37.515Z",
+    "images": [
+      "./problems/LOCAL079_problem_1.png",
+      "./problems/LOCAL079_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL079_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL079_answer.png"
+  },
+  {
+    "id": "LOCAL080",
+    "grade": "3",
+    "unit": "世界地理総合",
+    "keywords": "ユーラシア大陸,緯度,経度,本初子午線,赤道,フィヨルド,内陸国,偏西風,北大西洋海流,６大州",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:47:26.418Z",
+    "images": [
+      "./problems/LOCAL080_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL080_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL080_answer.png"
+  },
+  {
+    "id": "LOCAL081",
+    "grade": "3",
+    "unit": "世界地理総合",
+    "keywords": "大韓民国,中華人民共和国,一人っ子政策,ナイル川,適地適作,鉄鉱石,ヨーロッパ連合,輸出,統計資料,資源",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:48:22.602Z",
+    "images": [
+      "./problems/LOCAL081_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL081_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL081_answer.png"
+  },
+  {
+    "id": "LOCAL082",
+    "grade": "3",
+    "unit": "日本地理総合",
+    "keywords": "雨温図,やませ,冷害,促成栽培,林業,紀伊山地,日本なし,気候,降水量,気温",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:50:02.373Z",
+    "images": [
+      "./problems/LOCAL082_problem_1.png",
+      "./problems/LOCAL082_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL082_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL082_answer.png"
+  },
+  {
+    "id": "LOCAL083",
+    "grade": "3",
+    "unit": "１９世紀までの歴史",
+    "keywords": "卑弥呼,渡来人,聖徳太子,聖武天皇,墾田永年私財法,桓武天皇,平安京,坂上田村麻呂,御成敗式目,豊臣秀吉",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:52:01.923Z",
+    "images": [
+      "./problems/LOCAL083_problem_1.png",
+      "./problems/LOCAL083_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL083_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL083_answer.png"
+  },
+  {
+    "id": "LOCAL084",
+    "grade": "3",
+    "unit": "明治以降の歴史",
+    "keywords": "明治時代,大正時代,昭和時代,日清戦争,日露戦争,第一次世界大戦,太平洋戦争,富国強兵,三国協商,サンフランシスコ平和条約",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:53:24.355Z",
+    "images": [
+      "./problems/LOCAL084_problem_1.png",
+      "./problems/LOCAL084_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL084_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL084_answer.png"
+  },
+  {
+    "id": "LOCAL085",
+    "grade": "2",
+    "unit": "世界の諸地域",
+    "keywords": "イギリス,EU離脱,西岸海洋性気候,暖流,偏西風,南アフリカ共和国,レアメタル,クロム,フィヨルド,世界地理",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:54:49.942Z",
+    "images": [
+      "./problems/LOCAL085_problem_1.png",
+      "./problems/LOCAL085_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL085_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL085_answer.png"
+  },
+  {
+    "id": "LOCAL086",
+    "grade": "2",
+    "unit": "地域の調査・自然・人口",
+    "keywords": "地形図,縮尺,等高線,標高,地図記号,方位,傾き,実際の距離,計曲線,主曲線",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:56:51.565Z",
+    "images": [
+      "./problems/LOCAL086_problem_1.png",
+      "./problems/LOCAL086_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL086_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL086_answer.png"
+  },
+  {
+    "id": "LOCAL087",
+    "grade": "2",
+    "unit": "室町時代",
+    "keywords": "建武の新政,後醍醐天皇,南北朝時代,室町幕府,足利義満,勘合貿易,日明貿易,応仁の乱,守護大名,一揆",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T07:58:18.442Z",
+    "images": [
+      "./problems/LOCAL087_problem_1.png",
+      "./problems/LOCAL087_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL087_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL087_answer.png"
+  },
+  {
+    "id": "LOCAL088",
+    "grade": "2",
+    "unit": "１６世紀頃の日本と世界",
+    "keywords": "十字軍,宗教改革,ルター,マゼラン,大航海時代,鉄砲伝来,キリスト教,織田信長,豊臣秀吉,安土桃山時代",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T08:00:05.189Z",
+    "images": [
+      "./problems/LOCAL088_problem_1.png",
+      "./problems/LOCAL088_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL088_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL088_answer.png"
+  },
+  {
+    "id": "LOCAL089",
+    "grade": "1",
+    "unit": "世界の姿",
+    "keywords": "世界地図,６大陸,３大洋,オーストラリア大陸,太平洋,インド洋,大西洋,ヨーロッパ州,国旗,イギリス",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T08:01:41.663Z",
+    "images": [
+      "./problems/LOCAL089_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL089_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL089_answer.png"
+  },
+  {
+    "id": "LOCAL090",
+    "grade": "1",
+    "unit": "日本の姿",
+    "keywords": "領域,領海,排他的経済水域,緯度,経度,時差,都道府県,都道府県庁所在地,沖ノ鳥島,竹島",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T08:02:37.538Z",
+    "images": [
+      "./problems/LOCAL090_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL090_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL090_answer.png"
+  },
+  {
+    "id": "LOCAL091",
+    "grade": "1",
+    "unit": "世界の人々の生活と環境",
+    "keywords": "気候帯,気温,降水量,サバナ気候,温暖湿潤気候,乾燥帯,雨季,乾季,針葉樹,理科年表",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T08:04:22.030Z",
+    "images": [
+      "./problems/LOCAL091_problem_1.png",
+      "./problems/LOCAL091_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL091_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL091_answer.png"
+  },
+  {
+    "id": "LOCAL092",
+    "grade": "1",
+    "unit": "古代までの日本",
+    "keywords": "旧石器時代,縄文時代,弥生時代,卑弥呼,邪馬台国,古墳時代,岩宿遺跡,竪穴住居,青銅器,魏志倭人伝",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T08:11:13.588Z",
+    "images": [
+      "./problems/LOCAL092_problem_1.png",
+      "./problems/LOCAL092_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL092_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL092_answer.png"
+  },
+  {
+    "id": "LOCAL093",
+    "grade": "1",
+    "unit": "人類の出現と古代文明",
+    "keywords": "猿人,新人,メソポタミア文明,エジプト文明,インダス文明,太陽暦,象形文字,ポリス,モヘンジョ・ダロ,アフリカ",
+    "year": "2025",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-05T08:09:45.260Z",
+    "images": [
+      "./problems/LOCAL093_problem_1.png",
+      "./problems/LOCAL093_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL093_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL093_answer.png"
   }
 ]
