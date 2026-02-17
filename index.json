@@ -2392,5 +2392,181 @@
       "./problems/LOCAL121_explanation_1.png"
     ],
     "answerImage": "./problems/LOCAL121_answer.png"
+  },
+  {
+    "id": "LOCAL122",
+    "grade": "2",
+    "unit": "世界地理総合（時差、気候、産業）",
+    "keywords": "本初子午線 亜寒帯 ペルシア湾 混合農業 アグリビジネス",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "3",
+    "createdAt": "2026-02-17T08:26:14.302Z",
+    "images": [
+      "./problems/LOCAL122_problem_1.png",
+      "./problems/LOCAL122_problem_2.png",
+      "./problems/LOCAL122_problem_3.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL122_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL122_answer.png"
+  },
+  {
+    "id": "LOCAL123",
+    "grade": "2",
+    "unit": "日本地理総合",
+    "keywords": "瀬戸内工業地域 本州四国連絡橋 カルデラ 二毛作 世界自然遺産",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "3",
+    "createdAt": "2026-02-17T08:28:17.651Z",
+    "images": [
+      "./problems/LOCAL123_problem_1.png",
+      "./problems/LOCAL123_problem_2.png",
+      "./problems/LOCAL123_problem_3.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL123_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL123_answer.png"
+  },
+  {
+    "id": "LOCAL124",
+    "grade": "2",
+    "unit": "歴史（古代〜平安）",
+    "keywords": "埴輪 菅原道真 国風文化 摂関政治 壬申の乱",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-17T08:29:12.573Z",
+    "images": [
+      "./problems/LOCAL124_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL124_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL124_answer.png"
+  },
+  {
+    "id": "LOCAL125",
+    "grade": "2",
+    "unit": "歴史（中世・室町〜戦国）",
+    "keywords": "室町幕府 管領 勘合貿易 書院造 宗教改革",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-02-17T08:30:12.875Z",
+    "images": [
+      "./problems/LOCAL125_problem_1.png",
+      "./problems/LOCAL125_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL125_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL125_answer.png"
+  },
+  {
+    "id": "LOCAL126",
+    "grade": "2",
+    "unit": "歴史（近世〜近代・明治）",
+    "keywords": "傘連判状 アヘン戦争 岩倉使節団 内閣総理大臣 徴兵令",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "3",
+    "createdAt": "2026-02-17T08:33:35.567Z",
+    "images": [
+      "./problems/LOCAL126_problem_1.png",
+      "./problems/LOCAL126_problem_2.png",
+      "./problems/LOCAL126_problem_3.png"
+    ],
+    "explanationImages": [],
+    "answerImage": "./problems/LOCAL126_answer.png"
+  },
+  {
+    "id": "LOCAL127",
+    "grade": "1",
+    "unit": "世界と日本の姿（地理）",
+    "keywords": "",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-17T08:37:40.532Z",
+    "images": [
+      "./problems/LOCAL127_problem_1.png",
+      "./problems/LOCAL127_problem_2.png",
+      "./problems/LOCAL127_problem_3.png"
+    ],
+    "explanationImages": [],
+    "answerImage": "./problems/LOCAL127_answer.png"
+  },
+  {
+    "id": "LOCAL128",
+    "grade": "1",
+    "unit": "世界の諸地域（地理）",
+    "keywords": "",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-02-17T08:39:26.275Z",
+    "images": [
+      "./problems/LOCAL128_problem_1.png",
+      "./problems/LOCAL128_problem_2.png",
+      "./problems/LOCAL128_problem_3.png"
+    ],
+    "explanationImages": [],
+    "answerImage": "./problems/LOCAL128_answer.png"
+  },
+  {
+    "id": "LOCAL129",
+    "grade": "1",
+    "unit": "古代までの歴史",
+    "keywords": "",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-02-17T08:40:33.073Z",
+    "images": [
+      "./problems/LOCAL129_problem_1.png",
+      "./problems/LOCAL129_problem_2.png",
+      "./problems/LOCAL129_problem_3.png"
+    ],
+    "explanationImages": [],
+    "answerImage": "./problems/LOCAL129_answer.png"
+  },
+  {
+    "id": "LOCAL130",
+    "grade": "1",
+    "unit": "中世の歴史（平安〜鎌倉）",
+    "keywords": "",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "3",
+    "createdAt": "2026-02-17T08:41:56.972Z",
+    "images": [
+      "./problems/LOCAL130_problem_1.png",
+      "./problems/LOCAL130_problem_2.png",
+      "./problems/LOCAL130_problem_3.png"
+    ],
+    "explanationImages": [],
+    "answerImage": "./problems/LOCAL130_answer.png"
   }
 ]
